@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+}
+h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0;
+}
+img{
+    height: 350px;
+    width: 100%;
+    margin-top: 40px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+ul{
+    padding-left: 20px;
+}
+.sec-left li::marker{
+    color: #FB6D3A ;
+}
+li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.wrapp {
+    margin: 0 auto;
+    width: 1280px;
+    height: 1400px;
+    background-color: #F5F7FA;
+}
+.res{
+    display: flex;
+    position: absolute;
+    margin: 40px;
+    width: 1200px;
+    height: 1320px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.sec-left{
+    width: 370px;
+    height: 100%;
+    background-color: #1E2939;
+}
+
+.info{
+    margin: 50px 0 0 40px;
+}
+
+.content{
+    width: 185px;
+    display: flex;
+    justify-content: space-between;
+}
+.Nm p{
+    width: 26px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.con_info p {
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.TechSkills{
+    margin-top: 47px;
+}
+.sec-right{
+    margin: 50px 0 0 88px;
+    color: black;
+}
+.sec-right p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #595959;
+}
+.sec-right h3{
+    color: #000;
+}
+.position p{
+    margin: 0;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+}
+.Person{
+    margin-top: 19px;
+    width: 555px;
+}
+.Person h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+}
+.Person p {
+    margin: 0;
+    margin-top: 24px;
+}
+.Project{
+    margin-top: 40px;
+    width: 485px;
+}
+.Project_info{
+    margin-top: 8px;
+}
+.Project_info a{
+    color: #595959;
+}
+ol{
+    max-width: 40em;
+    padding-left: 20px;
+    overflow-x: hidden;
+    margin: 0;
+}
+ol li{
+    padding-left: 13px;
+}
+
+li::marker{
+    font-weight: 700;
+    font-size: 14px;
+}
+ol li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    color: #A8A8A8;
+    content:
+ "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ "
+ "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ "
+ "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ "
+ "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ "
+}
+
+ol a {
+    padding-right: 0.33em;
+    background: white
+}
+ol a + span {
+    float: right;
+    padding-left: 0.33em;
+    background: white
+}
+.brackets{
+    color: #000;
+    font-weight: 700;
+}
+.stack{
+    color: #595959;
+    font-weight: 400;
+}
+.WorkExperience {
+    margin-top: 50px;
+}
+.expir{
+    margin-top: 20px;
+}
+.expir h4{
+    margin: 0;
+    margin-bottom: 11px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.expir h4 span{
+    color: #FB6D3A;
+}
+.expir h4 span b {
+    color: #000;
+}
+.expir p{
+    margin: 0;
+    width: 400;
+    size: 12px;
+    color: #A8A8A8;
+}
+.expir p b {
+    color: #000;
+    font-weight: 400;
+}
+.info_expir {
+    width: 530px;
+    color: #595959;
+    font-weight: 400;
+font-size: 14px;
+}
+.info_expir ul {
+    margin: 0;
+    margin-top: 8px;
+}
+.Education{
+    margin-top: 43px;
+}
+.Education h4{
+    margin: 0;
+    margin-top: 12px;
+    color: #FB6D3A;
+    font-weight: 700;
+    font-size: 16px;
+}   
+.prof{
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+}
+.prof p{
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 12px 0;
+}
+.prof p:last-child{
+    color: #A8A8A8;
+    font-weight: 400;
+    font-size: 12px;
+}
